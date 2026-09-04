@@ -139,12 +139,18 @@ jobs:
               "aud",
               "sub",
               "repository",
+              "repository_id",
               "repository_owner",
+              "repository_owner_id",
+              "enterprise",
+              "enterprise_id",
+              "organization",
+              "organization_id",
               "event_name",
               "ref",
               "base_ref",
               "head_ref"
-          ]
+              ]
 
           for key in keys:
               if key in claims:
